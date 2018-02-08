@@ -19,6 +19,7 @@ entities:
  - enterprise
 
 intents:
+  - greet
   - greet_howmayihelp
   - password_reset
   - inform_what_password

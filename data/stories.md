@@ -4,7 +4,7 @@
 * password_reset
   - utter_inform_what_password
 * inform_what_password
-  - utter_inform_groupinfra
+  - utter_inform_groupinfra{"groupinfra": "groupinfra"}
 * inform_PSAID{"PSAID": "214145"}
   - action_isvalidid
   - utter_inform_name
@@ -22,7 +22,7 @@
 * password_reset
   - utter_inform_what_password
 * inform_what_password
-  - utter_inform_enterprise
+  - utter_inform_enterprise{"enterprise": "enterprise"}
 * inform_PSAID{"PSAID": "112233"}
   - action_isvalidid
   - utter_inform_name
@@ -40,7 +40,7 @@
 * password_reset
   - utter_inform_what_password
 * inform_what_password
-  - utter_inform_enterprise
+  - utter_inform_enterprise{"enterprise": "enterprise"}
 * inform_PSAID{"PSAID": "112123"}
   - action_isvalidid
   - utter_inform_name
@@ -58,7 +58,7 @@
 * password_reset
   - utter_inform_what_password
 * inform_what_password
-  - utter_inform_groupinfra
+  - utter_inform_groupinfra{"groupinfra": "groupinfra"}
 * inform_PSAID{"PSAID": "112233"}
   - action_isvalidid
   - utter_inform_name
@@ -76,7 +76,7 @@
 * password_reset
   - utter_inform_what_password
 * inform_what_password
-  - utter_inform_enterprise
+  - utter_inform_enterprise{"enterprise": "enterprise"}
 * inform_PSAID{"PSAID": "112233"}
   - action_isvalidid
   - utter_inform_name
@@ -94,7 +94,7 @@
 * password_reset
   - utter_inform_what_password
 * inform_what_password
-  - utter_inform_groupinfra
+  - utter_inform_groupinfra{"groupinfra": "groupinfra"}
 * inform_PSAID{"PSAID": "222111"}
   - action_isvalidid
   - utter_inform_name
@@ -112,7 +112,7 @@
 * password_reset
   - utter_inform_what_password
 * inform_what_password
-  - utter_inform_enterprise
+  - utter_inform_enterprise{"enterprise": "enterprise"}
 * inform_PSAID{"PSAID": "8352592"}
   - action_isvalidid
   - utter_inform_name
@@ -130,7 +130,25 @@
 * password_reset
   - utter_inform_what_password
 * inform_what_password
-  - utter_inform_enterprise
+  - utter_inform_enterprise{"enterprise": "enterprise"}
+* inform_PSAID{"PSAID": "216811"}
+  - action_isvalidid
+  - utter_inform_name
+* inform_name{"name": "Niko Alvar"}
+  - utter_inform_email
+* inform_email{"email": "yasir.uk@uk.com"}
+  - action_isvalidemail
+  - utter_onit
+* goodbye
+  - utter_goodbye
+
+ ## 9                   
+* greet
+  - utter_greet_howmayihelp
+* password_reset
+  - utter_inform_what_password
+* inform_what_password
+  - utter_inform_groupinfra{"groupinfra": "groupinfra"}
 * inform_PSAID{"PSAID": "216811"}
   - action_isvalidid
   - utter_inform_name
